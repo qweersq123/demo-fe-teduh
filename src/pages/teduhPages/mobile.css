@@ -1,0 +1,15 @@
+.bgPutih{
+    @media screen and (max-width: 420px){
+        width: 100px;
+    }
+}
+
+.box {
+    cursor: pointer;
+  }
+
+  .logo{
+    @media screen and (max-width: 220px){
+        width: 100px;
+    }
+  }
