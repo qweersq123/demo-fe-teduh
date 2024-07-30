@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+:where(.css-dev-only-do-not-override-n0gjrg).ant-input-outlined.ant-input-disabled, :where(.css-dev-only-do-not-override-n0gjrg).ant-input-outlined[disabled] {
+  background-color: #ffffff !important;
+  color: black !important;
+  cursor: not-allowed;
+  font-family: 'Poppins';
+}
+
+:where(.css-dev-only-do-not-override-n0gjrg).ant-picker-outlined.ant-picker-disabled, :where(.css-dev-only-do-not-override-n0gjrg).ant-picker-outlined[disabled] {
+  background-color: #ffffff !important;
+  color: black !important;
+  cursor: not-allowed;
+  font-family: 'Poppins';
+}
+
+:where(.css-dev-only-do-not-override-n0gjrg).ant-picker .ant-picker-input >input[disabled] {
+  background-color: #ffffff !important;
+  color: black !important;
+  cursor: not-allowed;
+  font-family: 'Poppins';
+}
+
+.grecaptcha-badge {
+  visibility: hidden;
+}
